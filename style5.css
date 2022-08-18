@@ -1,0 +1,39 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+.main{max-width: 1200px;margin: auto;}
+.main1{max-width: 850px;margin: auto;}
+.top{width: 100%;float: left;padding: 15px 0;}
+.top-left{width: 87%;float: left;}
+.top-right{width: 13%;float: right;}
+.top-right p{font-size: 18px;font-family: 'Open Sans', sans-serif;}
+.top-right p::before{content: "";background: url(icon.png);height: 20px;width: 20px;}
+.top-right p::before {content: "";background: url(icon.png);height: 22px;width: 33px;float: left;background-position: -15px -59px;vertical-align: middle;display: inline-block;}
+.top-right img{float: right;margin-top: 10px;}
+.finace{width: 100%;float: left;background: #f9f9f9;padding-top: 50px;}
+.mil{width: 100%;float: left;padding-bottom: 28px;margin-bottom: 28px;}
+.inner-mil{width: 100%;float: left;}
+.first{width: 33%;float: left;position: relative;text-align: right;}
+.first span{border:1px solid #034694;color: #034694;padding: 7px 11px;border-radius: 20px;}
+.first span::before{content: "";border: 1px solid;display: inline-block;position: absolute;width: 415px;left: 0%;top:10%;}
+.first p{font-size: 15px;font-family: 'Open Sans', sans-serif;font-weight: 600;color: #034694;padding-top: 19px;}
+.second{width: 33%;float: left;position: relative;padding-left: 180px;}
+.second span{border:1px solid #dddddd;color: #dddddd;padding: 7px 11px;border-radius: 20px;}
+.second span::before {content: "";border: 1px solid;display: inline-block;position: absolute;width: 175px;left: 0px;top: 10%;}
+.second span::after{content: "";border: 1px solid;display: inline-block;position: absolute;width: 235px;left: 47%;top: 10%;}
+.second p{font-size: 15px;font-family: 'Open Sans', sans-serif;font-weight: 400;color:#4e4e4e;padding-top: 19px;margin-left: -20px;}
+.third{width: 33.33%;float: left;position: relative;}
+.third span{border:1px solid #dddddd;color: #dddddd;padding: 7px 11px;border-radius: 20px;}
+.third span::after {content: "";border: 1px solid;display: inline-block;position: absolute;top: 10%;width: 425px;left: 7%;}
+.third p{font-size: 15px;font-family: 'Open Sans', sans-serif;font-weight: 400;color:#4e4e4e;padding-top: 19px;}	
+.inner-finace{width: 100%;float: left;border-bottom: 1px solid #ccc;padding-bottom: 20px;}
+.inner-finace h1{font-size: 45px;color: #514a4a;font-family: 'Open Sans', solidans-serif;}
+.tell{width: 100%;float: left;padding-top: 20px;}
+.tell p{font-family: 'Open Sans', sans-serif;font-size: 17px;}
+.like{width: 100%;float: left;padding: 40px 0;}
+.like form input{padding: 13px 240px 13px 0;text-align: center;border-radius: 5px;border-color:black;}
+.aa{width: 50%;float: left;color: #27273c;}
+
+.like form input.cc{padding: 11px 34px;float: right;margin-top: 18px;font-size: 17px;background:#e10b84;border: none;color:white;cursor: pointer;}
+.bb {padding-left: 37px;}
+.last{width: 100%;float: left;background: #222240;padding: 25px 0px;}
+.last p {color: white;padding: 5px 17px;line-height: 28px;font-size: 14px;font-family: 'Open Sans', solidans-serif;}
+.last p span{text-decoration: underline;}
